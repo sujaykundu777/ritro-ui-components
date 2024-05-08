@@ -1,0 +1,89 @@
+node_modules/
+*storybook.log
+
+
+# Yarn
+yarn-error.log
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+.yarn/
+.yarnrc
+.yarn-integrity
+.yarn-metadata.json
+.yarnignore
+
+# logs
+logs
+*.log
+npm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# vscode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dependency directories
+node_modules/
+jspm_packages/
+
+# Typescript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# webpack
+build/
+dist/
+
+# nx
+.tmp/
+nx-report/
+
+node_modules/
+dist/
+coverage/
+.nx/
+.nx-results/
+.nx-cache/
+nx.json
+tsconfig.base.json
+tsconfig.e2e.json
+tsconfig.json
+tsconfig.app.json
+tsconfig.spec.json
+tsconfig.lib.json
+jest.config.js
+jest.preset.js
+jest.setup.ts
+.pnp.js
+.pnp.js.map
+
+
+

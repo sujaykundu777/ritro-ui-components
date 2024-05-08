@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-react-components",
+  "version": "1.0.0",
+  "description": "React components built using tailwind",
+  "author": "sujaykundu777 <sujaykundu777@gmail.com>",
+  "homepage": "https://github.com/sujaykundu777/ritro-ui-components#readme",
+  "license": "ISC",
+  "main": "lib/tailwind-react-components.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujaykundu777/ritro-ui-components.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/tailwind-react-components.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/sujaykundu777/ritro-ui-components/issues"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-vue-components",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "sujaykundu777 <sujaykundu777@gmail.com>",
+  "homepage": "https://github.com/sujaykundu777/ritro-ui-components#readme",
+  "license": "ISC",
+  "main": "lib/tailwind-vue-components.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujaykundu777/ritro-ui-components.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/tailwind-vue-components.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/sujaykundu777/ritro-ui-components/issues"
+  }
+}
