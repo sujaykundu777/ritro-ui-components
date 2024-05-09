@@ -1,9 +1,35 @@
 {
-  "name": "ritro-ui-components",
+  "name": "ritro-ui",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "surfaces/*"
   ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "clean": "lerna clean",
+    "dev": "lerna run dev",
+    "test": "lerna run test",
+    "test:watch": "lerna run test:watch",
+    "test:coverage": "lerna run test:coverage",
+    "test:ci": "lerna run test:ci",
+    "test:ci:coverage": "lerna run test:ci:coverage",
+    "lint": "lerna run lint",
+    "lint:fix": "lerna run lint:fix",
+    "format": "lerna run format",
+    "format:fix": "lerna run format:fix",
+    "prepublish": "lerna run prepublish",
+    "prepublishOnly": "lerna run prepublishOnly",
+    "prepare": "lerna run prepare",
+    "postpublish": "lerna run postpublish",
+    "postversion": "lerna run postversion",
+    "version": "lerna version",
+    "publish": "lerna publish",
+    "changelog": "lerna-changelog",
+    "release": "lerna-changelog && git add . && git commit -m 'chore(release): update changelog' && git push && lerna publish",
+    "next-client": "yarn workspace @ritro-ui/next-client dev"
+  },
   "devDependencies": {
     "@types/node": "^20.12.11",
     "@types/react": "^18",
@@ -13,6 +39,8 @@
   },
   "packageManager": "yarn@4.2.1",
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }
