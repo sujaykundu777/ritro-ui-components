@@ -1,11 +1,19 @@
 {
-  "name": "root",
+  "name": "ritro-ui-components",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^8.1.2"
+    "@types/node": "^20.12.11",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "lerna": "^8.1.2",
+    "typescript": "^5.4.5"
   },
-  "packageManager": "yarn@4.2.1"
+  "packageManager": "yarn@4.2.1",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
 }

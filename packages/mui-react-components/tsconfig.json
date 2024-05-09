@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "../../dist/packages/mui-react-components",
+    "esModuleInterop": true,
+    "paths": {
+      "react": ["node_modules/@types/react"],
+      "react-dom": ["node_modules/@types/react-dom"],
+      "react-router-dom": ["node_modules/@types/react-router-dom"]
+    },
+    "baseUrl": "./"
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "exclude": ["**/*.spec.tsx", "**/*.test.tsx", "**/*.stories.tsx"]
+}

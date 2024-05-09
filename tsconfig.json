@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "build",
+    "preserveSymlinks": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ES5",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "lib": ["es5", "dom"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "declaration": true,
+    "typeRoots": ["node_modules/@types", "./types", "./**/*.d.ts"],
+    "paths": {
+      "react": ["./node_modules/@types/react"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "./types/**/*.d.ts"],
+  "exclude": ["node_modules"]
+}
