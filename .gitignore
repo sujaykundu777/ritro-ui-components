@@ -2,7 +2,9 @@ node_modules/
 *storybook.log
 
 .yarn
-
+.DS_Store
+# .gz files
+*.gz
 # logs
 logs
 *.log
