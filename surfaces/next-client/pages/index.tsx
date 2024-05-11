@@ -7,7 +7,7 @@ const Home: React.FC = () => {
     <div>
       <h1>Welcome to the Home Page!</h1>
       <p>This is the main page of your application.</p>
-      <RButton variant="contained" color="primary">
+      <RButton variant="contained" color="primary" disableElevation>
         Click me!
       </RButton>
     </div>
