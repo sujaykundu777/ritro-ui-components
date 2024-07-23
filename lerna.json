@@ -2,5 +2,19 @@
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "independent",
   "npmClient": "yarn",
-  "packages": ["packages/**/*", "surfaces/**/*"]
+  "packages": ["packages/**/*", "surfaces/**/*"],
+  "hoist": "true",
+  "stream": true,
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "**/__tests__/**",
+        "**/__fixtures__/**",
+        "**/__mocks__/**",
+        "**/node_modules/**"
+      ],
+      "message": "chore(release): publish",
+      "registry": "https://registry.npmjs.org/"
+    }
+  }
 }

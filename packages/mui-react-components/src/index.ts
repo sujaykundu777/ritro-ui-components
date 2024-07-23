@@ -1,4 +1,10 @@
-export * from "./components/Button/Button";
-export * from "./components/Button/Button.types";
+// export * from "./components/Button/Button";
+// export * from "./components/Button/Button.types";
+import { RButton } from "./components/Button/Button";
+import { RButtonProps } from "./components/Button/Button.types";
 
-// Path: packages/mui-react-components/src/components/Button/Button.types.ts
+import { Text } from "./components/Text/Text";
+import { TextProps } from "./components/Text/Text";
+
+export { RButton, Text };
+export type { RButtonProps, TextProps };

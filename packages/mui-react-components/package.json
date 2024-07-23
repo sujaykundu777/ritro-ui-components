@@ -43,6 +43,7 @@
   "dependencies": {
     "@mui/icons-material": "^5.15.17",
     "@mui/material": "^5.15.17",
+    "@mui/x-data-grid": "^7.7.0",
     "storybook": "^8.0.10"
   },
   "devDependencies": {
