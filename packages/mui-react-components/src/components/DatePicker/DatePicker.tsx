@@ -103,7 +103,6 @@ export const RDatePicker: React.FC<DatePickerProps> = (props) => {
           }
           onViewChange={() => console.log("view change")}
           onYearChange={() => console.log("year change")}
-          open={false}
           orientation="portrait"
           localeText={{ day: "Today", month: "Month", year: "Year" }}
           views={views}
@@ -112,6 +111,22 @@ export const RDatePicker: React.FC<DatePickerProps> = (props) => {
           slotProps={{
             openPickerIcon: {
               onClick: () => console.log("open picker icon clicked"),
+            },
+            popper: {
+              sx: {
+                ...{
+                  "& .MuiPickersDay-root.Mui-selected": {
+                    color: "#fff",
+                    backgroundColor: "#4f4fc1",
+                  },
+                  "& .MuiPickersDay-root.Mui-disabled:not(.Mui-selected)": {
+                    color: "#B1B2B4",
+                  },
+                  "& .MuiPickersDay-root": {
+                    color: "#4B4D4F",
+                  },
+                },
+              },
             },
           }}
           onChange={onChange} // Callback fired when the value changes
