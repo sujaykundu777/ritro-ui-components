@@ -14,7 +14,8 @@
         "**/node_modules/**"
       ],
       "message": "chore(release): publish",
-      "registry": "https://registry.npmjs.org/"
+      "registry": "https://registry.npmjs.org/",
+      "contents": "packages/tailwind-react-components"
     }
   }
 }

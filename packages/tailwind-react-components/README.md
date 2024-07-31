@@ -4,8 +4,15 @@
 
 ## Usage
 
-```
-const tailwindReactComponents = require('tailwind-react-components');
+```ts
+import { RButton } from '@ritro-ui-tailwind';
 
-// TODO: DEMONSTRATE API
+// Example usage of RButton component
+const App = () => (
+  <div>
+    <RButton label="Click me" onClick={() => alert('Button clicked!')} />
+  </div>
+);
+
+export default App;
 ```
