@@ -18,9 +18,16 @@
     "url": "git+https://github.com/sujaykundu777/ritro-ui-components.git"
   },
   "scripts": {
-    "test": "node ./__tests__/tailwind-react-components.test.js"
+    "test": "node ./__tests__/tailwind-react-components.test.js",
+    "build:css": "postcss src/index.css -o lib/tailwind-react-components.css",
+    "dev:css": "postcss src/index.css -o lib/tailwind-react-components.css --watch"
   },
   "bugs": {
     "url": "https://github.com/sujaykundu777/ritro-ui-components/issues"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.2.7",
+    "postcss": "^8.4.14",
+    "autoprefixer": "^10.4.7"
   }
 }
