@@ -1,5 +1,4 @@
 {
-  "name": "@ritro-ui-tailwind",
   "version": "1.0.0",
   "description": "React components built using tailwind",
   "author": "sujaykundu777 <sujaykundu777@gmail.com>",
@@ -26,8 +25,8 @@
     "url": "https://github.com/sujaykundu777/ritro-ui-components/issues"
   },
   "dependencies": {
-    "tailwindcss": "^3.2.7",
+    "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
-    "autoprefixer": "^10.4.7"
+    "tailwindcss": "^3.2.7"
   }
 }
