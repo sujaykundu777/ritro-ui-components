@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 // import mui react components
-import { RButton, RDatePicker } from "@ritro-ui/mui-react-components";
+import {
+  RButton,
+  RDatePicker,
+  ButtonWithLoadingSpinner,
+} from "@ritro-ui/mui-react-components";
 import dayjs from "dayjs";
 
 const Home: React.FC = () => {
+  const [loading, setLoading] = useState(false);
+  const handleClick = () => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  };
+
   return (
     <div>
       <h1>Welcome to the Home Page for Ritro UI.dev </h1>
@@ -25,6 +37,9 @@ const Home: React.FC = () => {
         openTo="day"
         views={["day", "month", "year"]}
       />
+      <ButtonWithLoadingSpinner onClick={handleClick} loading={loading}>
+        Click to Load
+      </ButtonWithLoadingSpinner>
     </div>
   );
 };
