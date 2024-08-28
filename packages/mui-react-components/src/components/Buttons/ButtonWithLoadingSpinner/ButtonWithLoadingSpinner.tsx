@@ -1,12 +1,13 @@
 import React from "react";
-import { Button, CircularProgress } from "@mui/material";
+import { CircularProgress } from "@mui/material";
+import { RButton } from "../../Button/Button";
 import { ButtonWithLoadingSpinnerProps } from "./ButtonWithLoadingSpinner.types";
 
 export const ButtonWithLoadingSpinner: React.FC<
   ButtonWithLoadingSpinnerProps
 > = ({ onClick, loading, children, disabled, className }) => {
   return (
-    <Button
+    <RButton
       onClick={onClick}
       variant="contained"
       color="primary"
@@ -18,7 +19,7 @@ export const ButtonWithLoadingSpinner: React.FC<
       ) : (
         children
       )}
-    </Button>
+    </RButton>
   );
 };
 
