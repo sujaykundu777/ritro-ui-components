@@ -30,6 +30,11 @@ export const RitroTheme = createTheme({
     background: {
       default: "#fff",
     },
+    text: {
+      primary: "#111",
+      secondary: "#333",
+      disabled: "#666",
+    },
   },
 });
 
