@@ -149,3 +149,5 @@ export const RDatePicker: React.FC<DatePickerProps> = (props) => {
     </div>
   );
 };
+
+export default RDatePicker;
